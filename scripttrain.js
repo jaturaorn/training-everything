@@ -7,7 +7,7 @@ console.log(Fullname);
 
 //Boolean type
 let email = 'test@gmail.com';
-let findletter = email.includes('e');//includes = ตรวจเช็ค
+let findletter = email.includes('e');//.includes = ตรวจเช็ค
 console.log(findletter);
 
 //Number type
@@ -23,3 +23,11 @@ console.log(result);
 //the order of the operations is important - B I D M A S
 let bidMas = 5 * (10-3)**2;
 console.log(bidMas);
+
+//undefined type
+//let age;
+//console.log(age);
+
+//null type
+let age = null;
+console.log(age,age+3,`my age is ${age}`);
