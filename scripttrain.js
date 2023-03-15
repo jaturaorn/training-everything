@@ -40,9 +40,17 @@ const number = [3,4];
 // number.unshift(1,2);
 // console.log(number);
 // //middle
-// number.splice(2,0,'a','b');
-// console.log(number);
+number.splice(2,0,'a','b');
+console.log(number);
 //removed at end
 // const last = number.pop();
 // number.pop();
+// console.log(number);
+//removefirst
+// const removefirst = number.shift();
+// console.log(removefirst);
+// console.log(number);
+//removed at middle
+// const last = number.splice(1,1);
+// console.log(last);
 // console.log(number);
