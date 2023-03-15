@@ -66,3 +66,18 @@
 // // console.log(number.lastIndexOf('go'));
 // // console.log(number.lastIndexOf('go') === -1);
 // // console.log(number.indexOf(3,3));
+// const first = [1,2,3];
+// const second = [4,5,6];
+
+// const combined = [...first,...second];
+// console.log(combined);
+
+// // const combined = second.concat(first);
+// // console.log(combined);
+
+const number = [2,3,1];
+number.sort();
+console.log(number);
+
+number.reverse();
+console.log(number);
