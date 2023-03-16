@@ -1,30 +1,27 @@
-// const letters = ['a','b','c','d','a','c','a'];
-// let count = {};// create an object to keep track
-// //count letters
-// letters.forEach(letter => {
-//     if (count[letter]){
-//         count[letter]++;
-//     }else {
-//         count[letter] = 1;
-//     }
-//     console.log(count);
-// });
+// let Mycar = {
+//     make: 'Benz',
+//     model: 'E220',
+//     year: 2010
+//     drive: function({
+//         console.log('drive car');
+//     })
+// };
 
-// const storeUSD = [5,6,7,8];
-// const storeEUR = storeUSD.map(value => value*0.85);
+// console.log(Mycar);
+// console.log(Mycar.make);
+// console.log(Mycar.model);
 
-// console.log(storeUSD);
-// console.log(storeEUR);
+// let car = new Object();
+// car.make = 'Folk';
+// car.model = 'E240';
 
-// let storeUSD = [5,6,7,8];
+function Mycar (make, model) {
+    return{
+        make,model,drive(){
+            console.log('dirve');
+        }
+    }
+};
 
-// function toEuro(value) {
-//     value *= 0.085;
-//     return value;
-// }
-// let storeEUR = storeUSD.map();
-
-const number = [1,-1,2,3];
-
-const filters = number.filter(n => n > 0);
-console.log(filters);
+const car1 = new mycar('Funk',240);
+console.log(car1);
