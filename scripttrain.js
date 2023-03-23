@@ -1,52 +1,61 @@
-// let Mycar = {
-//     make: 'Benz',
-//     model: 'E220',
-//     year: 2010
-//     drive: function({
-//         console.log('drive car');
-//     })
-// };
-
-// console.log(Mycar);
-// console.log(Mycar.make);
-// console.log(Mycar.model);
-
-// let car = new Object();
-// car.make = 'Folk';
-// car.model = 'E240';
-
-// function Mycar (make, model) {
-//     return{
-//         make,model,drive(){
-//             console.log('dirve');
-//         }
-//     }
-// };
-
-// const car1 = new mycar('Funk',240);
-// console.log(car1);
-
-// let Car = function(make,model,year) {
-//     this.make = make;
-//     this.model = model;
-//     this.year = year;
-//     this.drive = function(name){
-//         console.log(`${name} is drive car`);
-//     }
-// };
-// let car1 = new Car('Flok','E250',2006);
-// console.log(car1);
-// console.log(car1.drive('Jackson'));
-
-let Pig = function(namep,yearp,location){
-    this.namep = namep;
-    this.yearp = yearp;
-    this.location = location;
-    this.Cut = function(nameB){
-        console.log(`${nameB} is Cut pig`);
-    }
-};
-
-let butcer = new Pig('COCO',5,'Brazill');
-console.log(butcer);
-butcer.Cut('Mozert');
+// function IceCreamMaking(flavor, type, toppings) {
+//     this.type = type;
+//     this.flavor = flavor;
+//     this.toppings = toppings;
+//   ​
+//     this.make = function () {
+//       return `${this.flavor.charAt(0).toUpperCase()}${this.flavor.slice(1)} ${
+//         this.type
+//       } served with ${this.toppings.slice(
+//         0,
+//         toppings.length - 1
+//       )} and ${this.toppings.slice(-1)}. 😉`;
+//     };
+//   }
+//   ​
+//   const vanillaFlavor = new IceCreamMaking("vanilla", "gelato", [
+//     "almond",
+//     "caramel suace",
+//   ]);
+//   ​
+//   console.log(vanillaFlavor.make());
+//   ​
+// //   const mintChocChip = new IceCreamMaking("Mint Chocolate Chip", "ice cream", [
+// //     "choclate sauce",
+// //     "hazelnut",
+// //     "cherry",
+// //   ]);
+// //   ​
+// // //   console.log(mintChocChip.make());
+// //   ​
+// //    const strawberryYogurt = new IceCreamMaking("strawberry", "frozen yogurt", [
+// //      "strawberry",
+// //      "whipped cream",
+// //      "strawberry sauce",
+// //    ]);
+// //   ​
+// // //    console.log(strawberryYogurt.make());
+// //   ​
+  
+// //    function showProps(obj, objName) {
+// //      let result = "";
+// //      for (let i in obj) {
+// //        // obj.hasOwnProperty() is used to filter out properties from the object's prototype chain
+// //        if (obj.hasOwnProperty(i)) {
+// //          result += objName + "." + i + " = " + obj[i] + "\n";
+// //        }
+// //      }
+// //      return result;
+// //    }
+// // //    console.log(showProps(vanillaFlavor, "vanillaFlavor"));
+// //   ​
+// //    function showProps2(obj, objName) {
+// //      let result = "";
+// //      for ([key, value] of Object.entries(obj)) {
+// //        if (obj.hasOwnProperty(key)) {
+// //          result += objName + "." + key + " = " + value + "\n";
+// //        }
+// //      }
+// //      return result;
+// //    }
+// //    console.log(showProps2(vanillaFlavor, "vanillaFlavor"));
