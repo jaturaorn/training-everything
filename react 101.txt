@@ -1,0 +1,18 @@
+react 101
+
+jsx dynamic data =
+ 
+const Item = () => {
+
+const name = "JOJO"
+const amount = 5000 (
+	<li>{name}<span>-{amount}</span></li>
+	);
+}
+
+export default Item
+
+JSX style & classname = 
+
+//inline css in react
+<h1 style={}></h1>
